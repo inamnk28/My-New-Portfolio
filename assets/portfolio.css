@@ -29,3 +29,24 @@
 .display-3 {
     font-weight: lighter !important;
 }
+.navbar {
+    font-family: montserrat;
+}
+.navbar-brand {
+    color: white !important;
+    font-size: 30px !important;
+}
+.nav-link {
+    color: white !important;
+}
+.icon {
+    font-size: 25px;
+    padding-inline: 5px;
+}
+
+.container-fluid {
+    font-family: montserrat;
+}
+.display-4 {
+    text-align: center;
+}
