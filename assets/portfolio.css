@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,300&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+#home {
+    background-image: url(https://i.postimg.cc/NMXqJVrF/adrien-olichon-RCAhi-GJs-UUE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container {
+    /* background-color: white; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.description {
+   font-family: montserrat;
+   color: white;
+}
+.para {
+    font-size: 25px;
+    font-weight: bolder;
+}
+.display-3 {
+    font-weight: lighter !important;
+}
