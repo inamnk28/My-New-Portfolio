@@ -50,3 +50,48 @@
 .display-4 {
     text-align: center;
 }
+.body {
+    text-align: center;
+}
+/* .flexthese {
+    display: flex !important;
+    justify-content: center !important;
+    justify-content: space-around !important;
+} */
+
+.circle {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50rem;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+.col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+li {
+    list-style-type: none;
+}
+/* js styling */
+.education {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 300px !important;
+    border-radius: 150px !important;
+}
+.card:nth-child(odd) {
+    background-color: aqua;
+    left: 50%;
+}
+.card:nth-child(even) {
+    background-color: blue;
+    right: 50%;
+}
+/* js styling */
